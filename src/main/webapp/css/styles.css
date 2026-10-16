@@ -1,0 +1,72 @@
+:root {
+  --se-navy: #0f2744;
+  --se-teal: #1a7a6d;
+  --se-gold: #d4a017;
+  --se-bg: #f5f7fa;
+  --se-text: #243044;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: var(--se-bg);
+  color: var(--se-text);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.hero {
+  background: linear-gradient(120deg, rgba(15, 39, 68, 0.88), rgba(26, 122, 109, 0.75)),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=80") center/cover;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+}
+
+.product-card img,
+.category-card img,
+.detail-image {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.detail-image {
+  height: 420px;
+  border-radius: 1rem;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.footer {
+  background: var(--se-navy);
+  color: #dbe4ef;
+}
+
+.admin-sidebar a {
+  color: #dbe4ef;
+  text-decoration: none;
+  display: block;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.admin-sidebar a.active,
+.admin-sidebar a:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.stat-card {
+  border: 0;
+  box-shadow: 0 8px 24px rgba(15, 39, 68, 0.08);
+}
+
+.badge-stock {
+  font-weight: 500;
+}
